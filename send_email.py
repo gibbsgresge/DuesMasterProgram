@@ -35,7 +35,7 @@ def send_email(to_email, name, dues_amount):
     message['Subject'] = 'Your Dues for This Semester'
     message['From'] = smtp_user
     message['To'] = to_email
-    body = f"Hello this is Brother Jethro.\n{name}, your dues this semester come out to {dues_amount}. If you have any issues with this please reach out to me.\nIn TKPhi, Brother Jethro"
+    body = f"Hello this is Gibbs Gresge.\n{name}, your dues this semester come out to {dues_amount}. If you have any issues with this please reach out to me.\nIn TKPhi, Gibbs Gresge"
     message.attach(MIMEText(body, 'plain'))
 
     # Send the email
